@@ -131,3 +131,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'ingles/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+ALLOWED_HOSTS = ['localhost','web-production-e2a45.up.railway.app']
